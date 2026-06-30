@@ -12,8 +12,8 @@ class Database {
     private $host = 'localhost';
     private $port = '5432';
     private $database = 'phs_tecnica';
-    private $username = 'postgres';
-    private $password = '123456789'; // CAMBIAR por tu contraseña real
+    private $username = '';
+    private $password = ''; // CAMBIAR por tu contraseña real
     
     private function __construct() {
         try {
